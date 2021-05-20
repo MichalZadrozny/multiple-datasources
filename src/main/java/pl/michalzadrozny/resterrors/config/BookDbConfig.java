@@ -16,7 +16,7 @@ import java.util.Map;
 @Configuration
 @PropertySource({"classpath:application.properties"})
 @EnableJpaRepositories(
-        basePackages = "pl.michalzadrozny.resterrors.dao.book",
+        basePackages = "pl.michalzadrozny.resterrors.repository.book",
         entityManagerFactoryRef = "bookEntityManager",
         transactionManagerRef = "bookTransactionManager")
 public class BookDbConfig extends DBConfig {

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import pl.michalzadrozny.resterrors.model.book.Book;
-import pl.michalzadrozny.resterrors.dao.book.BookRepo;
+import pl.michalzadrozny.resterrors.repository.book.BookRepo;
 
 @RestController
 @RequestMapping("/api/book")

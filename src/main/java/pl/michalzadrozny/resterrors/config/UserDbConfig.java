@@ -14,7 +14,7 @@ import javax.sql.DataSource;
 @Configuration
 @PropertySource({"classpath:application.properties"})
 @EnableJpaRepositories(
-        basePackages = "pl.michalzadrozny.resterrors.dao.user",
+        basePackages = "pl.michalzadrozny.resterrors.repository.user",
         entityManagerFactoryRef = "userEntityManager",
         transactionManagerRef = "userTransactionManager")
 public class UserDbConfig extends DBConfig {

@@ -1,4 +1,4 @@
-package pl.michalzadrozny.resterrors.dao.user;
+package pl.michalzadrozny.resterrors.repository.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
